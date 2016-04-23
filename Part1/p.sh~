@@ -1,0 +1,9 @@
+#!/bin/sh
+echo this is a shell script
+rsync -a /home/username/Music/Top10Music /home/username/Music
+rmdir Top10Music
+mkdir Top10Music
+cd Top10Music
+python ./urlprog1.py
+python ./ownsearch.py
+cd ..

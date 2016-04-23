@@ -1,0 +1,56 @@
+<!DOCTYPE HTML> 
+<html>
+<head><title>Browse</title>
+ 	<script src = "jquery-2.2.3.js"></script>
+ 	<script src = "browse.js"></script>
+	<link type="text/css" rel="stylesheet" href="browse.css">
+
+</head>
+<body>
+
+<div id = "menu">
+			<div id = "logo"> <img src ="logo.png"> </div>	
+			<div id = "restofmenu">
+				<div class = "button"><a href = "browse.html"><span>Browse</span></a></div>
+				<div class = "button"><a href = "http://www.billboard.com/charts"><span>Billboard Charts</span></a></div>
+				<div class = "button"><a href="top10.html"><span>Top 10<span></a></div>
+				<div class = "button" style = "margin-left = 200px"><a href = "index.html"><span>Home</span></a></div>
+			</div>
+		</div>	
+		
+		<div id = "left_image"><img src = "girl.jpg"></div>
+		
+		<div id = "form">
+			<h2 style = "color: #1a75ff">Enter the Song Title and Name of the Artist</h2><br><br>
+			<span style = "margin-left: 80px">Title of Song:      </span><textarea rows = "1" id = "song" placeholder = "enter name" required>
+			</textarea><br><br><br>
+			<span style = "margin-left: 80px">Name of Artist:    </span><textarea rows = "1" id = "artist" placeholder = "artist name" required>
+			</textarea><br>
+			<p style = "color: #cc9900; font-size: 15px; margin-left: 90px"><em>Please click on Confirm and then Download.</em></p><br><br>
+			
+			<button type = "button" id = "download" onclick = "processMessage()">Confirm</button>
+						
+			<a id = "download-button" href="#" style = "margin-left: 180px"><img src = "download-button.png"></a>
+			
+		</div>
+		
+		
+		<div id="footer">
+			<p style = "color: #cc9900"><strong><em>Designed by Prachi Patwardhan and Hima B.</strong></em></p>
+		</div>
+		
+	<!--Song Name: <textarea rows = "1" id = "song" placeholder = "enter name" required>
+	</textarea>
+	<br>
+	Name of Artist: <textarea rows = "1" id = "artist" placeholder = "artist name" required>
+	</textarea><br>
+
+	<button type="button" onclick="processMessage()">Click Me!</button>
+ 	
+ 	<p id = "var1"></p>
+ 	<p id = "var2"></p>
+ 	-->
+
+	
+</body>
+</html>
